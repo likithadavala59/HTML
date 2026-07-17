@@ -9,27 +9,45 @@
     <h1>Registration Form:</h1>
     <lable for="lblName">Enter your Full Name:</lable>
     <input id="txtName" type="text" placeholder="Enter your First Name">
-    <input id="txtName" type="text" placeholder="Enter your Second Name">
+    <input id="txtName" type="text" placeholder="Enter your Last Name"><br>
     <lable for="lblEmail">Enter your Email Address:</lable>
-    <input id="txtEmail" type="email" placeholder="Enter your Email Address">
+    <input id="txtEmail" type="email" placeholder="Enter your Email Address"><br>
     <label for="lblPassword">Enter your Password:</label>
-    <input id="txtPassword" type="password" placeholder="Enter your Password">
+    <input id="txtPassword" type="password" placeholder="Enter your Password"><br>
     <lable for="lblNumber">Enter your Phone Number:</lable>
-    <input id="txtNumber" type="number" placeholder="Enter your Phone Number">
+    <input id="txtNumber" type="number" placeholder="Enter your Phone Number"><br>
     <lable for="lblGender">Mention your Gender:</lable>
     <select>
-        <option id="txtMail">Mail</option>
+        <option>_Select your Gender-</option>
+        <option id="txtMail">Male</option>
         <option id="txtFemale">Female</option>
         <option id="txtOthers">Others</option>
-    </select>
+    </select><br>
+    <label for="lblHobbies">Hobbies:</label>
+    <input type="checkbox" id="reading" value="reading">
+    <label for="lblReading">Reading</label>
+    <input type="checkbox" id=music" value="music">
+    <label for="lblMusic">Music</label>
+    <input type="checkbox" id=traveling" value="traveling">
+    <label for="lblTraveling">Traveling</label><br>
+    <label for="lblSkill">Skills:</label>
+    <input type="radio" id="html" value="html">
+    <label for="lblHtml">HTML</label>
+     <input type="radio" id="css" value="css">
+    <label for="lblCSS">CSS</label>
+     <input type="radio" id="JS" value="js">
+    <label for="lblJs">JavaScript</label><br>
+    <lable for="lblCountry">Enter your Country:</lable>
+    <input id="txtCountry" type="text" placeholder="Enter your Country"><br>
     <lable for="lblCity">Enter your City:</lable>
-    <input id="txtName" type="text" placeholder="Enter your FullName">
-    <lable for="lblName">Enter your Full Name:</lable>
-    <input id="txtName" type="text" placeholder="Enter your FullName">
-    <lable for="lblName">Enter your Full Name:</lable>
-    <input id="txtName" type="text" placeholder="Enter your FullName">
-    <lable for="lblName">Enter your Full Name:</lable>
-    <input id="txtName" type="text" placeholder="Enter your FullName">
+    <input id="txtCity" type="text" placeholder="Enter your City"><br>
+    <lable for="lblPincode">Enter your Pincode:</lable>
+    <input id="txtPincode" type="number" placeholder="Enter your Pincode"><br>
+    <lable for="lblDate">Enter your Date of Birth:</lable>
+    <input id="txtDate" type="date" placeholder="Enter your Date of Birth"><br>
+    <lable for="lblAddress">Enter your Address:</lable>
+    <input id="txtAddress" type="text" placeholder="Enter your Address">
+    <button id="btnSubmit" onclick="onClickSubmit()">Submit</button>
 </body>
 
 </html>
